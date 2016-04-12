@@ -10,6 +10,8 @@ figure, figcaption {margin: 0}
 fieldset {border: none;}
 a {text-decoration: none;}
 p {line-height: 115%;font-weight: 100;color: #222}
+/*Animate*/
+.hidden {display: none}
 /* Header */
 header {background: url(../images/header.jpg) center center;background-size: cover}
 header .td {padding-bottom: 35%;text-align: center;}

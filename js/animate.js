@@ -2,24 +2,9 @@ $(document).ready( function() {
   $('html,body').animate({scrollTop: 50},1);
   $('html,body').animate({scrollTop: 0},200);
 
-  if ($('.aniIzq').length) { 
-    $('.aniIzq').each(function(){
-      $(this).addClass("hidden");
-      $(this).attr('rel','bounceInLeft');
-    });
-  }
-
-  if ($('.aniDer').length) { 
-    $('.aniDer').each(function(){
-      $(this).addClass("hidden");
-      $(this).attr('rel','bounceInRight');
-    });
-  }
-
-  if ($('.aniArriba').length) { 
-    $('.aniArriba').each(function(){
-      $(this).addClass("hidden");
-      $(this).attr('rel','bounceInUp');
+  if ($('.an').length) { 
+    $('.an').each(function(){
+      $(this).addClass("hidden");      
     });
   }
 
@@ -27,8 +12,8 @@ $(document).ready( function() {
 
 $(document, window).scroll(function(){
 
-  if ($('.ani').length) { 
-    $('.ani').each(function(){
+  if ($('.an').length) { 
+    $('.an').each(function(){
       var x_efecto = $(this).attr('rel');
       if ( x_efecto != null ) {
         var efecto1 = $(this).offset().top;
