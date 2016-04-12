@@ -1,0 +1,45 @@
+/* Tipo de letra */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100);
+/* Etiquetas */
+body{font-size:16px;font-family: 'Roboto', sans-serif;line-height: 130%;margin: 0 auto}
+h1, h2, h3 {color: #fd7e15;line-height: 120%;letter-spacing: 0em;font-weight: 400;}
+h3 {font-size: 1.5em;margin-bottom: .5em}
+h2 {font-size: 1.4em;font-weight: 600}
+h1 {font-size: 3em;font-weight: 900;text-transform: uppercase;}
+figure, figcaption {margin: 0}
+fieldset {border: none;}
+a {text-decoration: none;}
+p {line-height: 115%;font-weight: 100;color: #222}
+/*Animate*/
+.hidden {display: none}
+/* Header */
+header {background: url(../images/header.jpg) center center;background-size: cover}
+header .td {padding-bottom: 35%;text-align: center;}
+header h3 {text-shadow: 2px 2px rgba(0,0,0,.3);position: absolute;top: 1em;left: 1em;right: 0;text-align: center;font-size: 3em}
+/* Menú */
+ul, li {list-style: none;margin: 0}
+nav {position: absolute;left: 0;right: 0;bottom: 1em}
+nav li {background: rgba(0,0,0,.3);display: inline-block;padding: .5em 1em;border-radius: .3em;overflow: hidden;}
+nav li:hover {background: rgba(0,0,0,.8)}
+nav li a {color: #fff;text-decoration: none;}
+nav li a:hover {;color: #fd7e15}
+.activo {background: #fd7e15;color: #fff}
+/* Centrar */
+.td {width: 100%;max-width:1000px;margin: 0 auto;position: relative;overflow: hidden;padding: 4em 0}
+/* Logo */
+#logo {position: absolute;top: 2em;left: 0;}
+#logo img {width: 6em }
+/* Contenido */
+.notas {text-align: center;}
+.notas article {width: 30%;display: inline-block;margin: 2em;vertical-align: top;}
+.notas img {width: 100%}
+.izquierda {float: left;max-width: 300px;margin-right: 2em}
+.derecha {float: right;max-width: 300px;margin-left: 2em}
+#contactenos h1, #galeria h1 {text-align: center;}
+.contenido p {line-height: 150%}
+/* Fooder */
+footer {margin-top: 2em;text-align: center;color: #999 }
+#resalta {background: #fd7e15;padding: 2em;text-align: center;color: #fff}
+
+#social .fa {color: #fff;font-size: 1.8em;padding: 1em .3em 0}
+#social .fa:hover {color: #000}
