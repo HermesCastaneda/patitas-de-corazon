@@ -38,3 +38,6 @@ nav li a:hover {;color: #fd7e15}
 /* Fooder */
 footer {margin-top: 2em;text-align: center;color: #999 }
 #resalta {background: #fd7e15;padding: 2em;text-align: center;color: #fff}
+
+#social .fa {color: #fff;font-size: 1.8em;padding: 1em .3em 0}
+#social .fa:hover {color: #000}
